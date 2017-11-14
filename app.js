@@ -6,7 +6,7 @@ var firstStore = {
   name: '1st and Pike',
   minCust: 23,
   maxCust: 65,
-  avgCSale: 6.3,
+  avgSale: 6.3,
   custPerHour: function() {
     console.log('1st and Pike', firstStore);
     return Math.floor(Math.random() * (this.minCust - this.maxCust + 1)) + this.minCust;
@@ -20,13 +20,14 @@ var firstStore = {
       arr.push(this.custPerHour() * this.avgSale);
     }
     return arr;
-}
+  }
+};
 
 var secondStore = {
   name: 'SeaTac Airport',
   minCust: 3,
   maxCust: 24,
-  avgCookie: 1.2,
+  avgSale: 1.2,
   custPerHour: function() {
     console.log('SeaTac Airport', secondStore);
     return Math.floor(Math.random() * (this.minCust - this.maxCust + 1)) + this.minCust;
@@ -40,14 +41,14 @@ var secondStore = {
       arr.push(this.custPerHour() * this.avgSale);
     }
     return arr;
- }
+  }
 };
 
 var thirdStore = {
   name: 'Seattle Center',
   minCust: 11,
   maxCust: 38,
-  avgCookie: 3.7,
+  avgSale: 3.7,
   custPerHour: function() {
     console.log('Seattle Center', thirdStore);
     return Math.floor(Math.random() * (this.minCust - this.maxCust + 1)) + this.minCust;
@@ -68,7 +69,7 @@ var fourthStore = {
   name: 'Capitol Hill',
   minCust: 20,
   maxCust: 38,
-  avgCookie: 3.2,
+  avgSale: 3.2,
   custPerHour: function() {
     console.log('Capitol Hill', fourthStore);
     return Math.floor(Math.random() * (this.minCust - this.maxCust + 1)) + this.minCust;
@@ -82,13 +83,14 @@ var fourthStore = {
       arr.push(this.custPerHour() * this.avgSale);
     }
     return arr;
-}
+  },
+};
 
-fifthStore = {
+var fifthStore = {
   name: 'Alki',
   minCust: 2,
   maxCust: 16,
-  avgCookie: 4.6,
+  avgSale: 4.6,
   custPerHour: function() {
     console.log('Alki', fifthStore);
     return Math.floor(Math.random() * (this.minCust - this.maxCust + 1)) + this.minCust;
@@ -102,4 +104,5 @@ fifthStore = {
       arr.push(this.custPerHour() * this.avgSale);
     }
     return arr;
+  },
 };
