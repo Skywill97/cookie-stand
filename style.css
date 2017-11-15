@@ -1,3 +1,22 @@
 head {
 
 }
+header{
+  font-style: normal;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 55px;
+  color: orange;
+}
+body {
+background-color: solid white;
+
+}
+img {
+  border-style: solid;
+  border-right: 300px;
+  border-left: 300px;
+  display: block;
+  margin: 0 auto;
+}
