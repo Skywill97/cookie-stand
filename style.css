@@ -2,45 +2,50 @@ head {
 
 }
 header{
-  font-style: normal;
-  font-family: sans-serif;
-  font-weight: bold;
-  text-align: center;
-  font-size: 55px;
-  color: orange;
+
 }
 body {
 background-color: solid white;
 
 }
+.h1One{
+  font-family: 'Courgette';
+    font-style: normal;
+    font-weight: 400;
+  color: orange;
+  margin-top: -250px;
+  margin-left: 1000px;
+  font-size: 65px;
+  text-shadow: 3px 3px #FF0000;
+}
 
-a.saleslink {
-  color: black;
-  display: block;
-}
-img.fishies {
-  margin: auto;
-    width: 20%;
-    border: 1px black;
-    padding: 10px;
-    text-align: right;
-}
-img.fam {
-  margin: auto;
-    width: 50%;
-    border: 1px black;
-    padding: 10px;
-    text-align: left;
-
-}
 img.salmon {
     border-style: solid;
-    border-right: 300px;
-    border-left: 300px;
-    display: block;
-    margin: 0 auto;
-  text-align: center;
+    border-right: 600px;
+    border-left: 600px;
+  text-align: left;
+  height: 270px;
+  width: 70%
 }
-img.shirt {
-  text-align: 
+a {
+  padding: 30px;
+  font-size: 20px;
+  color: black;
+  hover
+}
+a:hover {
+  color: red;
+}
+img.fish{
+  text-align: left;
+ margin-top: 100px;
+}
+img.cookiefrost {
+ margin-left: 600px;
+ height: 250px;
+}
+h2{
+  text-align: center;
+  padding: 10px;
+
 }
