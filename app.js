@@ -1,7 +1,7 @@
 'use strict';
 
 var stores = [];
-var hours = ['6AM', '7AM', '8AM', '9AM', '10AM', '11AM', '12AM', '1PM', '2PM', '3PM', '4PM', '5PM', '6PM', '7PM',];
+var hours = ['6', '7AM', '8AM', '9AM', '10AM', '11AM', '12AM', '1PM', '2PM', '3PM', '4PM', '5PM', '6PM', '7PM',];
 function Store(name, maxCust, minCust, avgCookies) {
   this.name = name;
   this.maxCust = maxCust;

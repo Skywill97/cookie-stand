@@ -5,24 +5,23 @@ header{
 
 }
 body {
-background-image: url(assets/white-background-002.jpg);
+  background-image: url(assets/white-background-002.jpg);
 
 }
-.h1One{
+.h1One {
   font-family: 'Courgette';
-    font-style: normal;
-    font-weight: 400;
+  font-style: normal;
+  font-weight: 400;
   color: orange;
   margin-top: -250px;
   margin-left: 1000px;
   font-size: 65px;
   text-shadow: 3px 3px #FF0000;
 }
-
 img.salmon {
-    border-style: solid;
-    border-right: 600px;
-    border-left: 600px;
+  border-style: solid;
+  border-right: 600px;
+  border-left: 600px;
   text-align: left;
   height: 270px;
   width: 70%
@@ -30,30 +29,26 @@ img.salmon {
 a {
   padding: 30px;
   font-size: 20px;
-  color: black;
-  hover
+  color: black
 }
-a:hover {
-  color: red;
-}
-img.fish{
+img.fish {
   text-align: left;
- margin-top: 0px;
+  margin-top: 0px;
 }
 img.cookiefrost {
- margin-left: 600px;
- height: 280px;
- width: auto;
+  margin-left: 600px;
+  height: 280px;
+  width: auto;
 }
-h2{
+h2 {
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
   text-align: center;
   padding: 10px;
   margin-left: -150px;
-font-size: 50px;
-margin-top: 100px;
+  font-size: 50px;
+  margin-top: 100px;
 
 }
 p.col {
@@ -61,15 +56,15 @@ p.col {
   font-style: normal;
   font-weight: 400;
 }
-h3{
+h3 {
   text-align: center;
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
   text-align: center;
-font-size: 50px;
+  font-size: 50px;
 }
-h3.locat{
+h3.locat {
   text-align: left;
   font-family: 'Open Sans';
   font-style: normal;
@@ -78,19 +73,19 @@ h3.locat{
   padding-left: 20px;
   padding-top: 10px;
 }
-li.time{
-font-size: 20px;
-margin-top: 12px;
+li.time {
+  font-size: 20px;
+  margin-top: 12px;
 }
 
 img.fam {
-height: 250px;
-width: auto;
-margin-left: 500px;
-margin-top: -270px;
-margin-left: 350px;
+  height: 250px;
+  width: auto;
+  margin-left: 500px;
+  margin-top: -270px;
+  margin-left: 350px;
 }
-ul{
+ul {
   font-size: 22px;
 }
 img.merch1 {
@@ -101,12 +96,40 @@ p.merchtxt {
   text-align: left;
   margin-left: 250px;
 }
-section{
+section {
   border: 30px;
 
-***SALES PAGE***
+  ***SALES PAGE***
 
 }
 body.sales {
   background-color: orange;
+}
+
+.salestxt {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 800;
+}
+
+label {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 800;
+}
+
+button {
+  color: red;
+}
+
+table, td {
+  border: 1px solid black;
+}
+
+input {
+  font-size: 15px;
+  border: 2px solid black;
+}
+.linkhome {
+  font-size: 25px;
 }
