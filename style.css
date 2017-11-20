@@ -5,7 +5,7 @@ header{
 
 }
 body {
-  background-image: url(assets/white-background-002.jpg);
+
 
 }
 .h1One {
@@ -13,9 +13,9 @@ body {
   font-style: normal;
   font-weight: 400;
   color: orange;
-  margin-top: -250px;
+  margin-top: -275px;
   margin-left: 1000px;
-  font-size: 65px;
+  font-size: 75px;
   text-shadow: 3px 3px #FF0000;
 }
 img.salmon {
