@@ -1,4 +1,136 @@
-div {
+head {
+
+}
+header{
+
+}
+body {
+
+
+}
+.h1One {
+  font-family: 'Courgette';
+  font-style: normal;
+  font-weight: 400;
+  color: orange;
+  margin-top: -275px;
+  margin-left: 1000px;
+  font-size: 75px;
+  text-shadow: 3px 3px #FF0000;
+}
+img.salmon {
   border-style: solid;
-  border-right: -1px;
+  border-right: 600px;
+  border-left: 600px;
+  text-align: left;
+  height: 270px;
+  width: 70%
+}
+a {
+  padding: 30px;
+  font-size: 20px;
+  color: black
+}
+img.fish {
+  text-align: left;
+  margin-top: 0px;
+}
+img.cookiefrost {
+  margin-left: 600px;
+  height: 280px;
+  width: auto;
+}
+h2 {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  padding: 10px;
+  margin-left: -150px;
+  font-size: 50px;
+  margin-top: 100px;
+
+}
+p.col {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+}
+h3 {
+  text-align: center;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  font-size: 50px;
+}
+h3.locat {
+  text-align: left;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+li.time {
+  font-size: 20px;
+  margin-top: 12px;
+}
+
+img.fam {
+  height: 250px;
+  width: auto;
+  margin-left: 500px;
+  margin-top: -270px;
+  margin-left: 350px;
+}
+ul {
+  font-size: 22px;
+}
+img.merch1 {
+  margin-left: 375px;
+
+}
+p.merchtxt {
+  text-align: left;
+  margin-left: 250px;
+}
+section {
+  border: 30px;
+
+  ***SALES PAGE***
+
+}
+body.sales {
+  background-color: orange;
+}
+
+.salestxt {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 800;
+}
+
+label {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 800;
+}
+
+button {
+  color: red;
+}
+
+table, td {
+  border: 1px solid black;
+}
+
+input {
+  font-size: 15px;
+  border: 2px solid black;
+}
+.linkhome {
+  font-size: 25px;
+
 }
