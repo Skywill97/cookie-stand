@@ -1,12 +1,8 @@
 head {
-
 }
 header{
-
 }
 body {
-
-
 }
 .h1One {
   font-family: 'Courgette';
@@ -49,7 +45,6 @@ h2 {
   margin-left: -150px;
   font-size: 50px;
   margin-top: 100px;
-
 }
 p.col {
   font-family: 'Open Sans';
@@ -98,39 +93,33 @@ p.merchtxt {
 }
 section {
   border: 30px;
-
+  
   ***SALES PAGE***
 
 }
 body.sales {
   background-color: orange;
 }
-
 .salestxt {
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 800;
 }
-
 label {
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 800;
 }
-
 button {
   color: red;
 }
-
 table, td {
   border: 1px solid black;
 }
-
 input {
   font-size: 15px;
   border: 2px solid black;
 }
 .linkhome {
   font-size: 25px;
-
 }
